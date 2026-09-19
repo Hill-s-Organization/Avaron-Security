@@ -33,7 +33,7 @@
     ].join(';');
 
     banner.innerHTML =
-      '<a href="//www.dmca.com/Protection/Status.aspx?ID=1a6810fc-d958-4f0f-b357-18a7ffaa9bdd" ' +
+      '<a href="https://www.dmca.com/r/7g64wlj" ' +
       'title="DMCA.com Protection Status" class="dmca-badge" target="_blank" rel="noopener">' +
       '<img src="https://images.dmca.com/Badges/dmca-badge-w200-5x1-05.png?ID=1a6810fc-d958-4f0f-b357-18a7ffaa9bdd" ' +
       'alt="DMCA.com Protection Status" style="height:40px;width:auto;display:block;" />' +
