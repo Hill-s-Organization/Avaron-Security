@@ -1,17 +1,11 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
+  "projectType": "saas",
+  "projectName": "Avaron Security",
+  "projectDescription": "Avaron Security provides professional security services — including on-site personnel, digital fingerprinting, and tailored security solutions — to protect people, assets, and businesses.",
   "theme": "almond",
-  "name": "Avaron Security",
-  "colors": {
-    "primary": "#ef7025",
-    "light": "#eec9bc",
-    "dark": "#4fa1ab"
-  },
-  "favicon": "/favicon.svg",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
+  "primaryColor": "#ef7025",
+  "lightColor": "#eec9bc",
+  "darkColor": "#4fa1ab",
   "navigation": {
     "tabs": [
       {
@@ -74,20 +68,19 @@
       }
     ]
   },
-  "navbar": {
-    "links": [
-      {
-        "label": "Contact Us",
-        "href": "/resources/contact"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Get a Quote",
-      "href": "/get-a-quote"
-    }
-  },
-  "footer": {
-    "socials": {}
-  }
+  "keyFeatures": [
+    "Professional on-site security personnel for events, corporate, and residential clients",
+    "Live fingerprinting services for background checks and identity verification",
+    "Custom security consultation and tailored protection plans",
+    "24/7 emergency support and rapid deployment",
+    "Licensed, trained, and insured security officers",
+    "Digital fingerprinting for employment, licensing, and legal compliance"
+  ],
+  "publicApiSurface": [
+    "Get a Quote form",
+    "Hire Security request flow",
+    "Fingerprinting Service booking",
+    "Consultation scheduling",
+    "Emergency contact line"
+  ]
 }
